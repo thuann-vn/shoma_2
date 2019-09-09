@@ -1,0 +1,8 @@
+export default {
+    ADD: 'ADD_PRODUCT',
+    REMOVE: 'REMOVE_PRODUCT',
+    RESET: 'RESET_PRODUCT',
+    UPDATE: 'UPDATE_PRODUCT',
+    GET: 'GET_PRODUCT'
+  };
+  

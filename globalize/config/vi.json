@@ -1,0 +1,11 @@
+{
+     "NSFaceIDUsageDescription": "Cho phép Ex.Ma sử dụng FaceID để đăng nhập không cần mã pin",
+     "NSCameraUsageDescription": "Cho phép Ex.Ma sử dụng Camera để chụp ảnh cho giao dịch, sự kiện",
+     "NSContactsUsageDescription": "Cho phép Ex.Ma truy cập và đồng bộ danh sách liên hệ với sổ nợ của bạn",
+     "NSPhotoLibraryUsageDescription": "Cho phép Ex.Ma truy cập thư viện hình ảnh để duyệt ảnh cho sự kiện và hình ảnh trong giao dịch",
+     "NSRemindersUsageDescription": "Cho phép Ex.Ma truy cập Nhắc nhở để tạo các nhắc nhở liên quan đến tài khoản, giao dịch và sự kiện",
+     "NSLocationWhenInUseUsageDescription": "Cho phép Ex.Ma truy cập vị trí của bạn để hiển thị các địa điểm gần bạn chính xác.",
+     "UIBackgroundModes": [
+         "fetch"
+     ]
+}
