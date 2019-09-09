@@ -10,7 +10,6 @@ import { SettingServices } from '../services/setting';
 import firebase from '../services/firebase';
 import Colors from '../constants/Colors';
 import Screens from '../constants/Screens';
-import * as InAppPurchases from 'expo-in-app-purchases';
 
 class AuthLoadingScreen extends React.Component {
   constructor(props) {
@@ -26,9 +25,6 @@ class AuthLoadingScreen extends React.Component {
 
   // Fetch the token from storage then navigate to our appropriate place
   _bootstrapAsync = async () => {
-    const history = await InAppPurchases.connectAsync();
-console.log(history);
-
     if (!this.state.isSignedIn) {
       //Navigate to auth if not logged in
       return this.props.navigation.navigate("Auth");

@@ -7,7 +7,8 @@ import {
   View,
   AppState,
   NetInfo,
-  Alert
+  Alert,
+  YellowBox
 } from 'react-native';
 import { AppLoading} from 'expo';
 import { Asset } from 'expo-asset';
@@ -41,6 +42,8 @@ import { syncDataAndListen } from './utils/syncHelper';
 import Screens from './constants/Screens';
 
 console.disableYellowBox = true;
+YellowBox.ignoreWarnings(["UIManager['getConstants']"]);
+YellowBox.ignoreWarnings(['ReactNative.NativeModules.LottieAnimationView'])
 
 function cacheImages(images) {
   return images.map(image => {
