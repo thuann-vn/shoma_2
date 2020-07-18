@@ -33,7 +33,7 @@
     "faker": "^4.1.0",
     "firebase": "^5.9.1",
     "fuse.js": "^3.4.5",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "lodash.debounce": "^4.0.8",
     "lodash.isequal": "^4.5.0",
     "lottie-react-native": "^2.6.1",
